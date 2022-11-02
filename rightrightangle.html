@@ -1,0 +1,27 @@
+<html>
+<head>
+</head>
+<body>
+
+<script>
+var n=10;
+var i;
+var j;
+var triangle="";
+for(i=1;i<n;i++)
+{
+	for(j=i;j<n;j++)
+	{
+		triangle +=" ";
+	}
+	var x=i-1;
+	for(j=1;j<x;j++)
+	{
+	triangle +="*";
+	}
+	triangle +="\n";
+}
+console.log(triangle);
+</script>
+</body>
+</html>
