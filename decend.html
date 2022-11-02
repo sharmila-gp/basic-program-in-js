@@ -1,0 +1,24 @@
+<html>
+<head>
+</head>
+<body>
+
+<script>
+var a=[20,50,10,80,12];
+var temp;
+var i,j;
+for(i=0;i<a.length;i++){
+	for(j=0;j<a.length;j++){
+		if(a[i]>a[j]){
+			temp=a[i];
+			a[i]=a[j];
+			a[j]=temp;
+		}
+	}
+}
+for(i=0;i<a.length;i++){
+console.log(a[i]);
+}
+</script>	
+</body>
+</html>

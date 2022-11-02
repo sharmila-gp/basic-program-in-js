@@ -1,0 +1,43 @@
+<html>
+<head>
+</head>
+<body>
+
+<script>
+var a=[50,70,70,57,65];
+var b=[63,75,90,86,95];
+var c=[79,89,99,89,69];
+var d=[49,35,50,54,48];
+var alen=a.length;
+add(a,alen);
+
+var blen=b.length;
+add(b,blen);
+var clen=c.length;
+add(c,clen);
+var dlen=d.length;
+add(d,clen);
+
+function add(x,a){
+var total=0;
+for(j=0;j<a;j++)
+{
+	total=total+x[j];
+}
+console.log("Total: "+total)
+if(total>400){
+console.log("Grade A ");
+}else if(total>350){
+console.log("Grade B ");
+}else if(total>300){
+console.log("Grade C ");
+}else if(total>250){
+console.log("Grade D ");
+}
+else if(total<250){
+console.log("Grade E ");
+}
+}
+</script>
+</body>
+</html>
