@@ -1,0 +1,28 @@
+<html>
+<head>
+</head>
+<body>
+
+<script>
+var num=371;
+console.log("The number is : "+num);
+var x;
+var y=0;
+var z=num;
+while(num!==0)
+{
+x=num%10;
+y=y+x*x*x;
+num=num/10;
+num=Math.trunc(num);
+}
+console.log("sum of the number: "+y);
+if(z==y){
+console.log(z+" is a amstrong number");
+}
+else{
+console.log(z+" is not a amstrong number");
+}
+</script>
+</body>
+</html>

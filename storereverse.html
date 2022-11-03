@@ -1,0 +1,21 @@
+<html>
+<head>
+</head>
+<body>
+
+<script>
+var num=567;
+console.log("The number is : "+num);
+var x;
+var y=0;
+while(num!==0)
+{
+x=num%10;
+y=y*10+x;
+num=num/10;
+num=Math.trunc(num);
+}
+console.log("Reverse of a number: "+y);
+</script>
+</body>
+</html>
